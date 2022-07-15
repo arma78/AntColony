@@ -7,10 +7,32 @@
   pointer-events: none;
 }
 
+.create-form label{
+  color: whitesmoke !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+  color: whitesmoke;
+  flex-direction: column;
+}
+
+.main-header{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-header {
